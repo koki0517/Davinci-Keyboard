@@ -3,15 +3,23 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "8c33c15f-bc3a-43f1-95c7-16efcabbae27")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "Davinci Keyboard")
 		(rev "a")
 	)
 	(lib_symbols)
+	(no_connect
+		(at 96.52 82.55)
+		(uuid "1b5bc052-41c2-4b97-bebf-1931d3fe90af")
+	)
+	(no_connect
+		(at 99.06 82.55)
+		(uuid "2c305a02-923b-41e9-95d9-d5881cf5fc90")
+	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 171.45 63.5)
+			(xy 118.11 62.23) (xy 120.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -21,7 +29,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 171.45 60.96)
+			(xy 118.11 59.69) (xy 120.65 59.69)
 		)
 		(stroke
 			(width 0)
@@ -31,7 +39,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 55.88) (xy 171.45 55.88)
+			(xy 118.11 54.61) (xy 120.65 54.61)
 		)
 		(stroke
 			(width 0)
@@ -41,7 +49,57 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 53.34) (xy 171.45 53.34)
+			(xy 77.47 71.12) (xy 80.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1481b4-38e7-4878-b548-ffa0776825c3")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8dbbf2-f058-46b5-9d4b-7e8bf82c968e")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 80.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb3b5a4-125e-4070-952f-9a18f9a93799")
+	)
+	(wire
+		(pts
+			(xy 77.47 64.77) (xy 80.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347cfee6-615b-4e26-ac6b-74c13cd91b09")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367de0f4-e5b9-4f10-a415-cc12d167a277")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +109,57 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 58.42) (xy 171.45 58.42)
+			(xy 77.47 52.07) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f059a9-3c6e-4225-bcba-6dfa67eb17fe")
+	)
+	(wire
+		(pts
+			(xy 77.47 73.66) (xy 80.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b1652c-04ec-4b0c-95af-3988b29fadaf")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a52abc4-262c-428f-96e0-6589d5ff507c")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e325ea8-08b3-469f-aa8c-0828757ec53e")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 80.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e81a34-63de-46ec-9018-9fb7a4f26919")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -61,7 +169,47 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 66.04) (xy 171.45 66.04)
+			(xy 77.47 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3e1417-52e5-40fa-86cf-004bdec5d6b2")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51d9c22-6895-44fb-a9b1-f45ddddef14f")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 80.01 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d421280f-63e5-4b06-b69c-e96d3fc4e3b0")
+	)
+	(wire
+		(pts
+			(xy 77.47 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacbbd8b-baeb-4c89-b338-b2af5321cc66")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 120.65 64.77)
 		)
 		(stroke
 			(width 0)
@@ -69,9 +217,39 @@
 		)
 		(uuid "e0505ca9-3ba8-4e54-82e3-848bf41e3b0e")
 	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6045dc2-88bb-491b-9644-3e4574dc748d")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f74184-fe98-4120-91b5-fa33d0badb19")
+	)
+	(wire
+		(pts
+			(xy 77.47 78.74) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47eba7a-97c8-494c-9199-db80d76700d2")
+	)
 	(sheet
-		(at 171.45 50.8)
-		(size 15.875 17.145)
+		(at 120.65 49.53)
+		(size 15.875 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -82,7 +260,7 @@
 		)
 		(uuid "348037db-0da0-4ddb-9f34-c2e500b5697c")
 		(property "Sheetname" "RotaryEncoder"
-			(at 171.45 50.0884 0)
+			(at 120.65 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +269,7 @@
 			)
 		)
 		(property "Sheetfile" "enc.kicad_sch"
-			(at 171.45 68.5296 0)
+			(at 120.65 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,7 +278,7 @@
 			)
 		)
 		(property "フィールド2" ""
-			(at 171.45 50.8 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +287,7 @@
 			)
 		)
 		(pin "enc3_A" passive
-			(at 171.45 53.34 180)
+			(at 120.65 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,7 +297,7 @@
 			(uuid "2e9690fe-438f-4e39-a992-81f72d5532a5")
 		)
 		(pin "enc1_A" passive
-			(at 171.45 63.5 180)
+			(at 120.65 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +307,7 @@
 			(uuid "536ccbc2-e57b-4d3c-a341-a79886e693b9")
 		)
 		(pin "enc2_B" passive
-			(at 171.45 60.96 180)
+			(at 120.65 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +317,7 @@
 			(uuid "64353f2a-5820-4a1e-967a-be8051ebc70b")
 		)
 		(pin "enc1_B" passive
-			(at 171.45 66.04 180)
+			(at 120.65 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,7 +327,7 @@
 			(uuid "cbcd6ac6-5973-425d-93b8-e11bf708d1a3")
 		)
 		(pin "enc2_A" passive
-			(at 171.45 58.42 180)
+			(at 120.65 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,7 +337,7 @@
 			(uuid "1abb088c-aac6-4730-b147-789fb9af681f")
 		)
 		(pin "enc3_B" passive
-			(at 171.45 55.88 180)
+			(at 120.65 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,6 +345,36 @@
 				(justify left)
 			)
 			(uuid "c15bd594-1d1b-48a5-b840-fc572f81729d")
+		)
+		(pin "enc1_SW" passive
+			(at 120.65 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "855e3765-6b86-44ff-9bbd-365ac9802500")
+		)
+		(pin "enc2_SW" passive
+			(at 120.65 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd6d6205-6bd1-4975-afab-f68e9b21c8a5")
+		)
+		(pin "enc3_SW" passive
+			(at 120.65 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78f305f2-39f2-437a-b18c-8b238408ce56")
 		)
 		(instances
 			(project "Davinci-Keyboard"
@@ -177,9 +385,8 @@
 		)
 	)
 	(sheet
-		(at 130.556 43.434)
-		(size 38.354 38.862)
-		(fields_autoplaced yes)
+		(at 80.01 42.164)
+		(size 38.1 40.386)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -189,7 +396,7 @@
 		)
 		(uuid "3a0884f4-1ccb-4f55-9421-8517bb7ae913")
 		(property "Sheetname" "ESP32-S3"
-			(at 130.556 42.7224 0)
+			(at 80.01 41.4524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,7 +405,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32_s3.kicad_sch"
-			(at 130.556 82.8806 0)
+			(at 84.836 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +414,7 @@
 			)
 		)
 		(pin "IO10" passive
-			(at 141.224 82.296 270)
+			(at 80.01 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +424,7 @@
 			(uuid "18633d75-b847-4f7f-bbdf-111ff7091ec1")
 		)
 		(pin "IO11" passive
-			(at 143.764 82.296 270)
+			(at 80.01 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +434,7 @@
 			(uuid "0be9a334-75f9-4ef6-bee8-b4041a2d8afb")
 		)
 		(pin "IO13" passive
-			(at 148.844 82.296 270)
+			(at 80.01 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +444,7 @@
 			(uuid "3e2838ec-d2dc-4c9a-bb2d-39b6b897369a")
 		)
 		(pin "IO12" passive
-			(at 146.304 82.296 270)
+			(at 80.01 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +454,7 @@
 			(uuid "e8ecefd0-90aa-4232-99af-cddf6ef51394")
 		)
 		(pin "IO16" passive
-			(at 130.556 62.484 180)
+			(at 80.01 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,7 +464,7 @@
 			(uuid "c7ae5cec-b55b-42f3-94a5-7956ab1d577a")
 		)
 		(pin "IO15" passive
-			(at 130.556 59.944 180)
+			(at 80.01 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,7 +474,7 @@
 			(uuid "3bdee0df-197d-4bfe-a052-ba2f0905ec8a")
 		)
 		(pin "IO14" passive
-			(at 151.384 82.296 270)
+			(at 96.52 82.55 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,7 +484,7 @@
 			(uuid "99b8c36e-1198-48b2-b459-ff416ed96797")
 		)
 		(pin "IO7" passive
-			(at 130.556 57.404 180)
+			(at 80.01 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +494,7 @@
 			(uuid "2feb5434-e046-4ee0-89e1-8a3b37f188a1")
 		)
 		(pin "IO8" passive
-			(at 130.556 65.024 180)
+			(at 80.01 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +504,7 @@
 			(uuid "c2e89ec9-85be-41ca-83c3-dfe6e33ab5bd")
 		)
 		(pin "IO9" passive
-			(at 138.684 82.296 270)
+			(at 80.01 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,7 +514,7 @@
 			(uuid "678b6d8a-4aed-43ed-bd49-ecc8c83d6d97")
 		)
 		(pin "IO6" passive
-			(at 130.556 54.864 180)
+			(at 80.01 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,7 +524,7 @@
 			(uuid "d7e5f342-d2b0-44da-93c9-c82db6c74b77")
 		)
 		(pin "IO5" passive
-			(at 130.556 52.324 180)
+			(at 80.01 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +534,7 @@
 			(uuid "ecc9ad70-3470-4ddc-bd0b-8841b1723404")
 		)
 		(pin "IO4" passive
-			(at 130.556 49.784 180)
+			(at 80.01 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,58 +543,8 @@
 			)
 			(uuid "442ed33b-9837-4709-b6da-3422449fb56f")
 		)
-		(pin "IO2" passive
-			(at 168.91 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fad0d97d-bd62-41d6-9ec9-8d544f2ded39")
-		)
-		(pin "IO1" passive
-			(at 168.91 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6896f0c7-a8b8-4887-9ca2-2759e4e600db")
-		)
-		(pin "IO47" passive
-			(at 156.464 82.296 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fa6342b2-d2b7-432e-809e-5a77c2cbf639")
-		)
-		(pin "IO48" passive
-			(at 159.004 82.296 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "45cf7f4e-46e0-47fd-9de8-733faeb3c19f")
-		)
-		(pin "IO21" passive
-			(at 153.924 82.296 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0ef4680d-f00b-45af-a0cd-485f3a2adc52")
-		)
 		(pin "enc2_B_IO40" passive
-			(at 168.91 60.96 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +554,7 @@
 			(uuid "5ba3487d-038f-469a-ba49-f31af78ef3b6")
 		)
 		(pin "enc2_A_IO39" passive
-			(at 168.91 58.42 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +564,7 @@
 			(uuid "bc6645ae-4078-4f16-8a7e-5006d9bb5ccf")
 		)
 		(pin "enc1_A_IO41" passive
-			(at 168.91 63.5 0)
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +574,7 @@
 			(uuid "9b9c4582-caf2-42f9-873f-e85992ee6371")
 		)
 		(pin "enc1_B_IO42" passive
-			(at 168.91 66.04 0)
+			(at 118.11 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,25 +583,85 @@
 			)
 			(uuid "a6383674-c816-4dd5-a655-bcd01ea340ef")
 		)
-		(pin "enc3_B_IO18" passive
-			(at 168.91 55.88 0)
+		(pin "IO17" passive
+			(at 80.01 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "30c93a76-ebed-442e-b697-57b0d2d11f9a")
+			(uuid "9397382b-44fa-464d-9f4f-1613b02728f6")
 		)
-		(pin "enc3_A_IO17" passive
-			(at 168.91 53.34 0)
+		(pin "IO18" passive
+			(at 80.01 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "964c2634-c75e-43a1-9e02-1b6b6477539f")
+		)
+		(pin "enc3_B_IO1" passive
+			(at 118.11 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0e918394-5eb1-462e-afb5-68b2a0c210d7")
+			(uuid "6d363aef-1322-44d1-b425-4277159712b8")
+		)
+		(pin "enc3_A_IO2" passive
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f19247e8-b5e3-4840-9193-82afaed63eca")
+		)
+		(pin "enc3_SW_IO47" passive
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f1ed511-bf5e-4551-b641-0d64d3286b4a")
+		)
+		(pin "enc2_SW_IO48" passive
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "065fabb9-38c1-49dc-9a1a-52a59d4ffd33")
+		)
+		(pin "IO21" passive
+			(at 99.06 82.55 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efb5c659-448f-40c0-89cd-820d87783258")
+		)
+		(pin "enc1_SW_IO38" passive
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1792cab-6ece-4165-a73a-6b451cfa3520")
 		)
 		(instances
 			(project "Davinci-Keyboard"
@@ -455,9 +672,8 @@
 		)
 	)
 	(sheet
-		(at 37.338 35.306)
-		(size 20.066 56.134)
-		(fields_autoplaced yes)
+		(at 62.865 41.021)
+		(size 14.605 41.529)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -467,7 +683,7 @@
 		)
 		(uuid "9ff3b2ad-a45d-475a-abd0-238767cf1a1b")
 		(property "Sheetname" "Key Switches"
-			(at 37.338 34.5944 0)
+			(at 62.865 40.3094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,13 +692,153 @@
 			)
 		)
 		(property "Sheetfile" "sw.kicad_sch"
-			(at 37.338 92.0246 0)
+			(at 60.452 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "IO6" passive
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7852ea7b-dda6-4102-a5b8-276ab9be724b")
+		)
+		(pin "IO7" passive
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13488cb9-85f0-4932-9bf7-4ed3e3f72b08")
+		)
+		(pin "IO17" passive
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "53d2b3e7-c176-4edc-b304-7adcd63d6e3d")
+		)
+		(pin "IO4" passive
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30d04ffb-5099-441c-a3da-31c27ae0851a")
+		)
+		(pin "IO16" passive
+			(at 77.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52c87930-63cd-40a7-befb-bca91c94fb76")
+		)
+		(pin "IO5" passive
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8b5fa07-b7df-48c7-99ba-5f38779d742f")
+		)
+		(pin "IO15" passive
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a682ecb2-c0b9-4c3b-a0bb-a0a4bd5dab77")
+		)
+		(pin "IO8" passive
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f73397e-cc70-490d-8af9-784a55ac52c3")
+		)
+		(pin "IO11" passive
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1fb1ea0a-cdf7-416d-94b8-f58b351f537f")
+		)
+		(pin "IO12" passive
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56e418f2-0e51-4353-9420-42650ebecf2d")
+		)
+		(pin "IO10" passive
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec7ba49f-28cc-4151-996d-504b1b19159c")
+		)
+		(pin "IO18" passive
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a2dc891-af7b-451c-8529-5d0c342fb4e7")
+		)
+		(pin "IO9" passive
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b459e99a-f790-4def-a914-f989d0dcbcda")
+		)
+		(pin "IO13" passive
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3664ed43-55a2-4e29-9313-74976015d6a3")
 		)
 		(instances
 			(project "Davinci-Keyboard"
